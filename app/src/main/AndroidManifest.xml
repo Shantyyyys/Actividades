@@ -12,14 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Actividades">
         <activity
-            android:name=".secundaryActivity"
+            android:name=".SecundaryActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
